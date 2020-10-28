@@ -15,7 +15,7 @@ export default () => (
             ]}
         >
             {value => (
-                <SkillButton color={value.color} content={value.content}/>
+                <SkillButton color={value.color} content={value.content} />
             )}
         </Distribution>
     </Layout>
