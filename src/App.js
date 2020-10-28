@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import {Avatar, Box, Button, Grommet, grommet, Nav, Sidebar} from 'grommet';
+import React from "react";
+import Tabs from './components/Tabs'
+import { BrowserRouter, Route } from 'react-router-dom'
+
+const theme = {
+  global:{
+    font:{
+      family: 'Roboto',
+      size: '18px',
+      height: '20px',
+    },
+  },
+};
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Grommet theme={grommet}>
+      <BrowserRouter>
+        <Tabs/>
+      </BrowserRouter>
+
+    </Grommet>
   );
 }
 
