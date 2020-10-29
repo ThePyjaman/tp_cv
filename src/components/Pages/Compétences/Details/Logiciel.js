@@ -4,5 +4,5 @@ import React from "react";
 
 
 export default (props) => (
-    <Image fit='cover' src='./moi.PNG' />
+    <Text size='large'>Ceci est le descriptif de mes coméptences de dev logiciel</Text>
 );
