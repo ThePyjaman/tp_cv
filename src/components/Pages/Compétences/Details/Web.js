@@ -4,5 +4,13 @@ import React from "react";
 
 
 export default (props) => (
-    <Text size='large'>pleins de techno et tout tu coco frero</Text>
+    <Box>
+        <Text size='large'>React</Text>
+        <Text size='normal'>Le plus grand maître de cette technologie sans aucun doute!</Text>
+        <Text size='large'>Symfony</Text>
+        <Text size='normal'>Encore plus accompli que dans React assurément!</Text>
+        <Text size='large'>Ruby</Text>
+        <Text size='normal'>Pas ouf ouf.</Text>
+    </Box>
+
 );

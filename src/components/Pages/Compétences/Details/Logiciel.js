@@ -4,5 +4,14 @@ import React from "react";
 
 
 export default (props) => (
-    <Text size='large'>Ceci est le descriptif de mes coméptences de dev logiciel</Text>
+    <Box>
+        <Text size='large'>C#</Text>
+        <Text size='normal'>Inventeur de la techno</Text>
+        <Text size='large'>Java</Text>
+        <Text size='normal'>Inventeur de l'inventeur de la techno</Text>
+        <Text size='large'>C++</Text>
+        <Text size='normal'>Inventeur de l'inventeur de l'inventeur de la techno</Text>
+        <Text size='large'>Juan Atkins</Text>
+        <Text size='normal'>Inventeur de la Techno</Text>
+    </Box>
 );
